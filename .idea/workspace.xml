@@ -5,12 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0480d8f2-f841-42a4-8bcd-7056b2c15cec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/DireccionProveedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Entidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/EntradaArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Estadistica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Estatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Exportacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/FacturaArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/FacturaVenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/FormaPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/GeneracionCodigos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/InventarioArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/InventarioCaptura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/InventarioFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/InventarioFisicoArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/KitArticulos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Logs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Mes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/MetodoPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/MovimientoAlmacen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Municipio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Oferta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/OfertaArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Orden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/OrdenArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Pais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/PedidoArticulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Periodicidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utdev/models/Permiso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,18 +61,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Fa9t1gVdvCRNrIwGegGEQB3Oz1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "Settings.Markdown"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
