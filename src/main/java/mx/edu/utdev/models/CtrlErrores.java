@@ -10,7 +10,7 @@ public class CtrlErrores {
     private String descripcion; // BD - NTEXT
 
     // CONSTRUCTORES
-    public CtrlErrores(){
+    public CtrlErrores() {
     }
 
     public CtrlErrores(int id_error, Timestamp fecha_log, String descripcion) {
