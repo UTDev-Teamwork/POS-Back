@@ -14,9 +14,11 @@ public class Direccion {
     private String no_exterior;
 
     // CONSTRUCTORES
-    public Direccion (){}
+    public Direccion() {
+    }
 
-    public Direccion(int id_direccion, int id_cliente, short id_municipio, short id_entidad, String codigo_postal, String colonia, String calle, String no_interior, String no_exterior) {
+    public Direccion(int id_direccion, int id_cliente, short id_municipio, short id_entidad, String codigo_postal,
+            String colonia, String calle, String no_interior, String no_exterior) {
         this.id_direccion = id_direccion;
         this.id_cliente = id_cliente;
         this.id_municipio = id_municipio;
