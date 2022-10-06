@@ -1,22 +1,12 @@
 package mx.edu.utdev.models;
 
-<<<<<<< HEAD
-import java.math.BigInteger;
-import java.sql.Timestamp;
-
-=======
->>>>>>> 9e2e972057fd3f7b1d073fb06a5e2324608bfa3f
 public class Direccion {
 
     // VARIABLES GLOBALES
     private int id_direccion;
     private int id_cliente;
     private short id_municipio;
-<<<<<<< HEAD
-    private short id_endidad;
-=======
     private short id_entidad;
->>>>>>> 9e2e972057fd3f7b1d073fb06a5e2324608bfa3f
     private String codigo_postal;
     private String colonia;
     private String calle;
@@ -24,15 +14,11 @@ public class Direccion {
     private String no_exterior;
 
     // CONSTRUCTORES
-<<<<<<< HEAD
+    public Direccion() {
+    }
 
-    // SETTERS & GETTERS
-
-}
-=======
-    public Direccion (){}
-
-    public Direccion(int id_direccion, int id_cliente, short id_municipio, short id_entidad, String codigo_postal, String colonia, String calle, String no_interior, String no_exterior) {
+    public Direccion(int id_direccion, int id_cliente, short id_municipio, short id_entidad, String codigo_postal,
+            String colonia, String calle, String no_interior, String no_exterior) {
         this.id_direccion = id_direccion;
         this.id_cliente = id_cliente;
         this.id_municipio = id_municipio;
@@ -118,4 +104,3 @@ public class Direccion {
         this.no_exterior = no_exterior;
     }
 }
->>>>>>> 9e2e972057fd3f7b1d073fb06a5e2324608bfa3f
