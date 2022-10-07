@@ -32,12 +32,31 @@ public class Articulo {
     private short puntos;
     private Timestamp last_update_inventory;
     private String cve_producto;
+    private String imagen;
 
     // CONSTRUCTORES
     public Articulo() {
     }
 
-    public Articulo(String cod_barras, String cod_asociado, BigInteger id_clasificacion, String cod_interno, String descripcion, String descripcion_corta, double cantidad_um, int id_unidad, int id_proveedor, double precio_compra, double utilidad, double precio_venta, String tipo_articulo, double stock, double stock_min, double stock_max, double iva, Timestamp kit_fecha_ini, Timestamp kit_fecha_fin, boolean articulo_disponible, boolean kit, Timestamp fecha_registro, boolean visible, short puntos, Timestamp last_update_inventory, String cve_producto) {
+    public Articulo(String cod_barras, int id_clasificacion, String descripcion, String descripcion_corta,
+            double precio_venta, double stock, double iva, boolean articulo_disponible, String imagen) {
+        this.cod_barras = cod_barras;
+        this.id_clasificacion = BigInteger.valueOf(id_clasificacion);
+        this.descripcion = descripcion;
+        this.descripcion_corta = descripcion_corta;
+        this.precio_venta = precio_venta;
+        this.stock = stock;
+        this.iva = iva;
+        this.articulo_disponible = articulo_disponible;
+        this.imagen = imagen;
+    }
+
+    public Articulo(String cod_barras, String cod_asociado, BigInteger id_clasificacion, String cod_interno,
+            String descripcion, String descripcion_corta, double cantidad_um, int id_unidad, int id_proveedor,
+            double precio_compra, double utilidad, double precio_venta, String tipo_articulo, double stock,
+            double stock_min, double stock_max, double iva, Timestamp kit_fecha_ini, Timestamp kit_fecha_fin,
+            boolean articulo_disponible, boolean kit, Timestamp fecha_registro, boolean visible, short puntos,
+            Timestamp last_update_inventory, String cve_producto) {
         this.cod_barras = cod_barras;
         this.cod_asociado = cod_asociado;
         this.id_clasificacion = id_clasificacion;
@@ -273,5 +292,13 @@ public class Articulo {
 
     public void setCve_producto(String cve_producto) {
         this.cve_producto = cve_producto;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 }

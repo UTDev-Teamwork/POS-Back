@@ -5,8 +5,9 @@ import java.sql.DriverManager;
 
 public class PostgreSQLJDBC {
 
+    public Connection c = null;
+
     public PostgreSQLJDBC() {
-        Connection c = null;
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager
