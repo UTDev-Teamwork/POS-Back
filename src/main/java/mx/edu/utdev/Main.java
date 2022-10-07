@@ -7,7 +7,13 @@ public class Main {
     public static void main(String[] args) {
         ArticuloRepository repository = new ArticuloRepository();
 
-        Javalin app = Javalin.create().start(7070);
+        Javalin app = Javalin.create(config -> {
+            config.plugins.enableCors(cors -> {
+                cors.add(it -> {
+                    it.anyHost();
+                });
+            });
+        }).start(7070);
 
         app.get("/", ctx -> ctx.result("Hello World"));
 
