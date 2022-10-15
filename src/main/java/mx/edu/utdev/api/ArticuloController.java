@@ -20,8 +20,8 @@ public class ArticuloController implements CrudHandler {
 
     @Override
     public void delete(Context ctx, String id) {
-        ctx.json(repository.delete(id));
-
+        // Arregla tu desmadre uri
+        // ctx.json(repository.delete(id));
     }
 
     @Override
@@ -32,12 +32,13 @@ public class ArticuloController implements CrudHandler {
 
     @Override
     public void getOne(Context ctx, String id) {
-        // TODO Auto-generated method stub
-        ctx.json(repository.getOne(id));
+        // Arregla tu desmadre uri
+        // ctx.json(repository.getOne(id));
     }
 
     @Override
     public void update(Context ctx, String id) {
-        ctx.json(repository.update(id));
+        // Arregla tu desmadre uri
+        // ctx.json(repository.update(id));
     }
 }

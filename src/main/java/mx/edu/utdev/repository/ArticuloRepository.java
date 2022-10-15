@@ -52,7 +52,7 @@ public class ArticuloRepository {
         try {
             stmt = postgreSQLJDBC.c.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM pos_admin.articulo WHERE cod_barras LIKE '7000000000%';");
-            
+
         } catch (SQLException e) {
             e.printStackTrace();
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
@@ -60,12 +60,12 @@ public class ArticuloRepository {
         return articulos.values();
     }
 
-    public Collection<Articulo> delete(){
-        
+    public Collection<Articulo> delete() {
+        return null;
     }
 
-    public Collection<Articulo> update(){
-         
+    public Collection<Articulo> update() {
+        return null;
     }
 
     public String getImage(int id) {
