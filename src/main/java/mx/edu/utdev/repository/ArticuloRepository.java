@@ -46,6 +46,28 @@ public class ArticuloRepository {
         return articulos.values();
     }
 
+    public Collection<Articulo> create() {
+        Map<Integer, Articulo> articulos = new ConcurrentHashMap<>();
+        Statement stmt;
+        try {
+            stmt = postgreSQLJDBC.c.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM pos_admin.articulo WHERE cod_barras LIKE '7000000000%';");
+            
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+        }
+        return articulos.values();
+    }
+
+    public Collection<Articulo> delete(){
+        
+    }
+
+    public Collection<Articulo> update(){
+         
+    }
+
     public String getImage(int id) {
         try {
             Statement stmt = postgreSQLJDBC.c.createStatement();
