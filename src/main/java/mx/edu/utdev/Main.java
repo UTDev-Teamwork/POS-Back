@@ -22,7 +22,7 @@ public class Main {
         });
 
         app.get("/hello/{name}", ctx -> { // the {} doesn't allow slashes ('/') as part of the parameter, <> does.
-            ctx.result("Hello: " + ctx.pathParam("name"));
+            ctx.result("Hello: " + ctx.pathParam("name") + "!");
         });
     }
 }
