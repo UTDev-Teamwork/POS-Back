@@ -9,36 +9,35 @@ public class ArticuloController implements CrudHandler {
     private ArticuloRepository repository;
 
     public ArticuloController() {
+        //
         repository = new ArticuloRepository();
     }
 
     @Override
     public void create(Context ctx) {
-        // TODO Auto-generated method stub
-
+        ctx.json(repository.create());
     }
 
     @Override
     public void delete(Context ctx, String id) {
-        // TODO Auto-generated method stub
+        ctx.json(repository.delete(id));
 
     }
 
     @Override
     public void getAll(Context ctx) {
+        //
         ctx.json(repository.findAll());
     }
 
     @Override
     public void getOne(Context ctx, String id) {
         // TODO Auto-generated method stub
-
+        ctx.json(repository.getOne(id));
     }
 
     @Override
     public void update(Context ctx, String id) {
-        // TODO Auto-generated method stub
-
+        ctx.json(repository.update(id));
     }
-
 }
